@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>내 Scratch 게임</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* 화면 요소를 세로로 배치합니다. */
+            align-items: center;
+            height: 100vh;
+            margin: 40px 0;
+        }
+
+        iframe {
+            width: 50%;
+            height: 40vh;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .instagram-logo {
+            text-align: center; /* 내부 요소를 가운데 정렬합니다. */
+            margin-top: 20px; /* 로고와 게임 화면 사이에 여백을 추가합니다. */
+        }
+
+        .instagram-logo img {
+            margin-bottom: 10px;
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Scratch 프로젝트를 내장하기 위한 <iframe> 태그 -->
+    <iframe src="https://scratch.mit.edu/projects/917802639/embed" allowtransparency="true"></iframe>
+
+    <!-- 인스타그램 로고 이미지 및 링크 -->
+    <div class="instagram-logo">
+        <a href="https://www.instagram.com/golgol_tambourine_club/" target="_blank">
+            <img src="image/insta.png" alt="Instagram 로고">
+        </a>
+        <div>골탬클 구경가기 !</div>
+    </div>
+</body>
+</html>
