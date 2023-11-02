@@ -24,9 +24,15 @@
         }
 
         .instagram-logo img {
-            margin-bottom: 10px;
             width: 30px;
             height: 30px;
+        }
+
+        @media (max-width: 768px) {
+            iframe {
+                width: 100%; /* 모바일 장치에서 전체 화면으로 확대합니다. */
+                height: 70vh; /* 높이를 조정할 수 있습니다. */
+            }
         }
     </style>
 </head>
@@ -39,7 +45,8 @@
         <a href="https://www.instagram.com/golgol_tambourine_club/" target="_blank">
             <img src="image/insta.png" alt="Instagram 로고">
         </a>
-        <div>골탬클 구경가기 !</div>
+        <div>click</div>
+        <div style="margin-top: 15px;">골탬클 구경가기 !</div>
     </div>
 </body>
 </html>
